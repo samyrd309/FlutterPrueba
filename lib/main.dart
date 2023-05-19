@@ -62,6 +62,24 @@ class MyCard extends StatelessWidget {
                     ),
                   ),
                 ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
+                child: ListTile(
+                  leading:
+                  Icon(
+                    Icons.email,
+                    color: Colors.black,
+
+                  ),
+                  title: Text(
+                    'adolfhitler@gmail.com',
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20.0
+                    ),
+                  ),
+                ),
               )
             ],
           ),
